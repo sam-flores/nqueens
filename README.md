@@ -4,8 +4,8 @@ This program uses a recursive depth first search to solve the nqueens problem. T
 
 the solution for 5 is 
 [0, 2, 4, 1, 3]
-Q▉▉▉▉
-▉▉Q▉▉
-▉▉▉▉Q
-▉Q▉▉▉
-▉▉▉Q▉
+Q▉▉▉▉\n
+▉▉Q▉▉\n
+▉▉▉▉Q\n
+▉Q▉▉▉\n
+▉▉▉Q▉\n
