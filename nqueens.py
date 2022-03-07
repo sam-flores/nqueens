@@ -26,5 +26,21 @@ def nq_solve(sol, n):
                 return sol
             else:
                 sol = temp_sol
-    print(len(sol))
+    # print(len(sol))
     return False  # tried every i in solver did not work
+
+n = input("input n for nqueens solver: ")
+print("the solution for", n,"is ")
+sol = nqueens(int(n))
+print(sol)
+
+str = ''
+if sol:
+    for i in range(0, len(sol)):
+        for j in range(0, len(sol)):
+            if j == sol[i]:
+                str += 'Q'
+            else:
+                str += '▉'
+        str += '\n'
+    print(str)
